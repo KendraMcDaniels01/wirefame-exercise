@@ -1,0 +1,55 @@
+
+
+nav{
+  background-color: grey;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+}
+li {
+  padding: 30px;
+}
+main {
+  padding-top: 30px;
+  margin: auto;
+  width: 960px;
+}
+Section {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  column-gap: 30px;
+  margin: auto;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+  width: 960px;
+}
+p {
+  width: 440px;
+  height: 300px; /* scrollables need fixed width*/
+  overflow: auto;
+}
+
+button:hover{
+  background-color: blue;
+}
+
+button{
+  transition: 350ms;
+}
+footer {
+  height: 150px;
+  background-color: #4444;
+}
